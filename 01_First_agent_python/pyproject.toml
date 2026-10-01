@@ -1,0 +1,13 @@
+[project]
+name = "nutrichef"
+version = "0.1.0"
+description = "NutriChef: a raw agent loop with no framework"
+readme = "README.md"
+authors = [
+    { name = "Dorin Belascu", email = "dorin.belascu@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "anthropic>=1.11.0",
+    "python-dotenv>=1.2.4",
+]
